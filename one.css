@@ -1,0 +1,33 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-color: #000000;
+}
+
+.fullH {
+    min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, b, i {
+    color: #808080;
+    font-family: Times New Roman, Arial;
+}
+
+.btn {
+    color: #FFFFFF;
+    background-color: #808080;
+    border-color: #AFAFAF;
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background-color: #404040;
+    border-color: #606060;
+}
+
+.down-20 {
+    padding-top: 20%;
+}
