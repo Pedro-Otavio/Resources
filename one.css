@@ -7,6 +7,10 @@ body {
     background-color: #000000;
 }
 
+.center {
+    text-align: center;
+}
+
 .fullH {
     min-height: 100%;
 }
@@ -32,6 +36,26 @@ a:hover {
     text-decoration: none;
 }
 
-.down-20 {
+.d-2 {
+    padding-top: 2%;
+}
+
+.d-4 {
+    padding-top: 4%;
+}
+
+.d-5 {
+    padding-top: 5%;
+}
+
+.d-10 {
+    padding-top: 10%;
+}
+
+.d-20 {
     padding-top: 20%;
+}
+
+.d-30 {
+    padding-top: 30%;
 }
