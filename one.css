@@ -32,6 +32,11 @@ h1, h2, h3, h4, h5, h6, p, b, i {
     border-color: #606060;
 }
 
+.btn[disabled] {
+    opacity: 0.25;
+    cursor: default;
+}
+
 a:hover {
     text-decoration: none;
 }
