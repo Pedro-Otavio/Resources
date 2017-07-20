@@ -37,8 +37,13 @@ h1, h2, h3, h4, h5, h6, p, b, i {
     cursor: default;
 }
 
-a:hover {
+a {
+    color: #4060FE;
+}
+
+a:hover, a:focus {
     text-decoration: none;
+    color: #2040DE;
 }
 
 .d-2 {
