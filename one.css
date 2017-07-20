@@ -32,20 +32,16 @@ h1, h2, h3, h4, h5, h6, p, b, i {
     border-color: #606060;
 }
 
-.disabled, .btn[disabled] {
+.disabled, .btn.disabled, .btn[disabled] {
     cursor: default;
     opacity: 0.25;
-}
-
-.cursor-def {
-    cursor: default;
 }
 
 .cursor-cel {
     cursor: cell; 
 }
 
-.cursor-scr {
+.cursor-asc {
     cursor: all-scroll;
 }
 
