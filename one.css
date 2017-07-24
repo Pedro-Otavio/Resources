@@ -46,6 +46,10 @@ a:hover, a:focus {
     color: #2040DE;
 }
 
+.d-1 {
+    padding-top: 1%;
+}
+
 .d-2 {
     padding-top: 2%;
 }
