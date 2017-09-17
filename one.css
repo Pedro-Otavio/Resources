@@ -20,6 +20,22 @@ h1, h2, h3, h4, h5, h6, p, b, i {
     font-family: Times New Roman, Arial;
 }
 
+.nav-tabs>li>a {
+    color: #FFFFFF;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+    color: #FFFFFF;
+    background-color: #404040;
+    border-color: #606060;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover {
+    color: #FFFFFF;
+    background-color: #404040;
+    border-color: #606060;
+}
+
 .btn {
     color: #FFFFFF;
     background-color: #808080;
