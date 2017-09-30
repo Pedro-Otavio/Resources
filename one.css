@@ -16,8 +16,13 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p, b, i {
+    cursor: text;
     color: #808080;
     font-family: Times New Roman, Arial;
+}
+
+div, b, i {
+    cursor: default;
 }
 
 i.fa, span.fa {
@@ -38,27 +43,33 @@ i.fa, span.fa {
     border-color: #404040;
 }
 
-.btn {
-    color: #FFFFFF;
-    background-color: #808080;
-    border-color: #808080;
+.btn.off {
+    cursor: pointer;
+    background-color: #202020;
+    border-color: #202020;
+}
+
+.btn.off:hover {
+    cursor: pointer;
+    background-color: #101010;
+    border-color: #101010;
 }
 
 .btn:hover {
     color: #FFFFFF;
     background-color: #404040;
-    border-color: #606060;
+    border-color: #404040;
 }
 
-.disabled, .btn.disabled, .btn[disabled] {
+.disabled, .btn.disabled, .btn[disabled], .form-control[disabled] {
     cursor: default;
     opacity: 1;
     background-color: #000000;
     border-color: #606060;
 }
 
-.btn.off {
-    cursor: pointer;
+.btn {
+    color: #FFFFFF;
     background-color: #606060;
     border-color: #606060;
 }
