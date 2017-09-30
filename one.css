@@ -15,17 +15,28 @@ body {
     min-height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, p, b, i {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+b,
+i {
     cursor: text;
     color: #808080;
     font-family: Times New Roman, Arial;
 }
 
-div, b, i {
+div,
+b,
+i {
     cursor: default;
 }
 
-i.fa, span.fa {
+i.fa,
+span.fa {
     color: #FFFFFF;
 }
 
@@ -37,7 +48,11 @@ i.fa, span.fa {
     color: #FFFFFF;
 }
 
-.nav-tabs>li>a:hover, .nav-tabs>li>a:focus, .nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+.nav-tabs>li>a:hover,
+.nav-tabs>li>a:focus,
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
     color: #FFFFFF;
     background-color: #404040;
     border-color: #404040;
@@ -61,7 +76,10 @@ i.fa, span.fa {
     border-color: #404040;
 }
 
-.disabled, .btn.disabled, .btn[disabled], .form-control[disabled] {
+.disabled,
+.btn.disabled,
+.btn[disabled],
+.form-control[disabled] {
     cursor: default;
     opacity: 1;
     background-color: #000000;
@@ -74,11 +92,21 @@ i.fa, span.fa {
     border-color: #606060;
 }
 
+.form-control {
+    display: inline-block;
+}
+
+.threeDigitInput {
+    width: 2.5em;
+    padding: 0.4em 0.1em 0.4em 0.34em;
+}
+
 a {
     color: #4060FE;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
     text-decoration: none;
     color: #2040DE;
 }
