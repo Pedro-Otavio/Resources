@@ -35,9 +35,13 @@ i {
     cursor: default;
 }
 
-i.fa,
 span.fa {
     color: #FFFFFF;
+}
+
+td {
+    border: none;
+    padding: 0.2em;
 }
 
 .nav-tabs {
