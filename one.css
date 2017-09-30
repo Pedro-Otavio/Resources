@@ -39,7 +39,7 @@ span.fa {
     color: #FFFFFF;
 }
 
-td {
+.table-minimal>tbody>tr>td {
     border: none;
     padding: 0.2em;
 }
