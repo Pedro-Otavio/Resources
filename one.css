@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6, p, b, i {
     font-family: Times New Roman, Arial;
 }
 
+i.fa {
+    color: #FFFFFF;
+}
+
 .nav-tabs {
     border-color: #404040;
 }
@@ -37,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, b, i {
 .btn {
     color: #FFFFFF;
     background-color: #808080;
-    border-color: #AFAFAF;
+    border-color: #808080;
 }
 
 .btn:hover {
