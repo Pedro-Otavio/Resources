@@ -39,6 +39,10 @@ span.fa {
     color: #FFFFFF;
 }
 
+.table {
+    margin: 0;
+}
+
 .table-minimal>tbody>tr>td {
     border: none;
     padding: 0.2em;
