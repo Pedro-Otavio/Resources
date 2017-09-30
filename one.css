@@ -48,7 +48,15 @@ h1, h2, h3, h4, h5, h6, p, b, i {
 
 .disabled, .btn.disabled, .btn[disabled] {
     cursor: default;
-    opacity: 0.25;
+    opacity: 1;
+    background-color: red;
+    border-color: #606060;
+}
+
+.btn.off {
+    cursor: pointer;
+    background-color: transparent;
+    border-color: #606060;
 }
 
 a {
