@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p, b, i {
     font-family: Times New Roman, Arial;
 }
 
-i.fa {
+i.fa, span.fa {
     color: #FFFFFF;
 }
 
