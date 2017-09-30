@@ -58,19 +58,25 @@ span.fa {
     border-color: #404040;
 }
 
+.btn.off:hover,
+.btn.off:focus {
+    background-color: #101010;
+    border-color: #101010;
+}
+
+.btn.off:active {
+    background-color: #080808;
+    border-color: #080808;
+}
+
 .btn.off {
     cursor: pointer;
     background-color: #202020;
     border-color: #202020;
 }
 
-.btn.off:hover {
-    cursor: pointer;
-    background-color: #101010;
-    border-color: #101010;
-}
-
-.btn:hover {
+.btn:hover,
+.btn:focus {
     color: #FFFFFF;
     background-color: #404040;
     border-color: #404040;
@@ -80,8 +86,9 @@ span.fa {
 .btn.disabled,
 .btn[disabled],
 .form-control[disabled] {
-    cursor: default;
+    cursor: default!important;
     opacity: 1;
+    color: #606060;
     background-color: #000000;
     border-color: #606060;
 }
@@ -90,6 +97,7 @@ span.fa {
     color: #FFFFFF;
     background-color: #606060;
     border-color: #606060;
+    outline: none!important;
 }
 
 .form-control {
@@ -98,6 +106,11 @@ span.fa {
 
 .threeDigitInput {
     width: 2.5em;
+    padding: 0.4em 0.1em 0.4em 0.34em;
+}
+
+.fiveDigitInput {
+    width: 4.5em;
     padding: 0.4em 0.1em 0.4em 0.34em;
 }
 
