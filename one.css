@@ -48,15 +48,15 @@ span.fa {
     padding: 0.2em;
 }
 
-td>h1,
-td>h2,
-td>h3,
-td>h4,
-td>h5,
-td>h6,
-td>p,
-td>b,
-td>i {
+td h1,
+td h2,
+td h3,
+td h4,
+td h5,
+td h6,
+td p,
+td b,
+td i {
     display: inline-block;
 }
 .nav-tabs {
